@@ -1,0 +1,71 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.card {
+    background-color: #1c1c1c;
+    border: 1px solid #444;
+}
+.card-title {
+    color: #ff9900;
+}
+.btn-primary {
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+.btn-primary:hover {
+    background-color: #e68a00;
+    border-color: #e68a00;
+}
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.navbar-custom {
+    background-color: #111; /* Rosa suave */
+}
+.navbar-custom .navbar-brand {
+    color: #fff !important; /* Rosa vibrante */
+    font-weight: bold;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff !important; /* Texto branco */
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #ff69b4 !important; /* Rosa vibrante no hover */
+}
+/* Estilização do footer */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .footer a:hover {
+    color: #ff6f61; /* Cor suave para hover */
+  }
+  .social-icons {
+    margin-bottom: 15px;
+  }
+  .footer-text {
+    font-size: 0.9rem;
+  }
+  
